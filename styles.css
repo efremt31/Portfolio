@@ -5,7 +5,7 @@
   margin: 0;
   scroll-behavior: smooth;
 }
-
+/* Nav Bar */
 .navinfo {
   position: relative;
   background-color: rgb(27, 193, 193);
@@ -22,7 +22,7 @@
 .me h2 {
   font-size: 2.5rem;
 }
-
+/* About Me Section */
 .myinfostart {
   display: flex;
   justify-content: center;
@@ -50,6 +50,19 @@
   margin-left: 15px;
   border: double 20px rgb(15, 168, 206);
 }
+
+.downloadicon {
+  height: 25px;
+  width: 25px;
+}
+
+.downloadbutton {
+  border: solid whitesmoke 3px !important;
+  border-radius: 20px !important;
+  font-weight: bolder;
+}
+
+/* Website Cards */
 .container-md {
   display: flex;
   align-items: center;
@@ -107,6 +120,8 @@
   background-color: rgb(243, 248, 248) !important;
   border: none !important;
 }
+
+/* Footer */
 
 footer {
   background-color: white;
