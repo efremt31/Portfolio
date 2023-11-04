@@ -179,4 +179,10 @@ footer {
   .artme {
     width: 80px;
   }
+
+  .downloadbutton {
+    height: 30px;
+    width: 80px;
+    font-size: 9px;
+  }
 }
